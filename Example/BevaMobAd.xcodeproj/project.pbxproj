@@ -60,12 +60,12 @@
 		6590580E67FEA6F4E7E4ED85 /* Pods_BevaMobAd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BevaMobAd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD34DFFEA5F2189FEE115C2A /* BevaMobAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BevaMobAd.podspec; path = ../BevaMobAd.podspec; sourceTree = "<group>"; };
+		AD34DFFEA5F2189FEE115C2A /* BevaMobAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BevaMobAd.podspec; path = ../BevaMobAd.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3EDFB56D9C01CA213224528 /* Pods-BevaMobAd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BevaMobAd_Example.debug.xcconfig"; path = "Target Support Files/Pods-BevaMobAd_Example/Pods-BevaMobAd_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C0B521534D874C63F8541AE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0B521534D874C63F8541AE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D790F777E80B97A9D6316DED /* Pods-BevaMobAd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BevaMobAd_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BevaMobAd_Tests/Pods-BevaMobAd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFF7F847235B03ACFCB2E01F /* Pods_BevaMobAd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BevaMobAd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9F6AA20BA202E8195250053 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9F6AA20BA202E8195250053 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FF4C8BCC13E5730C30F0A732 /* Pods-BevaMobAd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BevaMobAd_Tests.release.xcconfig"; path = "Target Support Files/Pods-BevaMobAd_Tests/Pods-BevaMobAd_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				D790F777E80B97A9D6316DED /* Pods-BevaMobAd_Tests.debug.xcconfig */,
 				FF4C8BCC13E5730C30F0A732 /* Pods-BevaMobAd_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "673729631@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4N8627W97S;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = B3EDFB56D9C01CA213224528 /* Pods-BevaMobAd_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4N8627W97S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BevaMobAd/BevaMobAd-Prefix.pch";
 				INFOPLIST_FILE = "BevaMobAd/BevaMobAd-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 2242719AF305BB2012375B37 /* Pods-BevaMobAd_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4N8627W97S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BevaMobAd/BevaMobAd-Prefix.pch";
 				INFOPLIST_FILE = "BevaMobAd/BevaMobAd-Info.plist";

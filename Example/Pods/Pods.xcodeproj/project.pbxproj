@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0BA91042DB059DDE0E9E7B59B5321927 /* Pods-BevaMobAd_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1F539AFB6F0782674587D233199E14 /* Pods-BevaMobAd_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		340B46FE1CAD857FED065329B03AF656 /* Pods-BevaMobAd_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDA66B8B58FF1970C523D43019D40 /* Pods-BevaMobAd_Example-dummy.m */; };
+		3D6A093C24E12F1500F7EA5B /* MobAD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A093A24E12F1500F7EA5B /* MobAD.bundle */; };
+		3D6A093D24E12F1500F7EA5B /* MobAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6A093B24E12F1500F7EA5B /* MobAD.framework */; };
 		50C7A3413939FF407C6FCF13666197EB /* BevaMobAd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD36DA0EF7AA0C83226309C4FEC078CE /* BevaMobAd-dummy.m */; };
 		6063623CACCD12B2C4F0EF327F33241A /* Pods-BevaMobAd_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDB43564ECD8F0E6EF4BCF4DC4E9575 /* Pods-BevaMobAd_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8819D479701FAD14A5B54BF62872FAD1 /* Pods-BevaMobAd_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D5B7AF12E9A20E324370CDAF0FA9EB /* Pods-BevaMobAd_Tests-dummy.m */; };
@@ -43,24 +45,26 @@
 		1F703C5AD4393C8C9CC82F6EC07E725B /* Pods-BevaMobAd_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BevaMobAd_Tests.modulemap"; sourceTree = "<group>"; };
 		275258362C1D8BE73E4DC46C92A19D21 /* Pods-BevaMobAd_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BevaMobAd_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		396ECBE8EC64F530FF96FAD6ADD33BF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		396ECBE8EC64F530FF96FAD6ADD33BF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D6A093A24E12F1500F7EA5B /* MobAD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobAD.bundle; sourceTree = "<group>"; };
+		3D6A093B24E12F1500F7EA5B /* MobAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobAD.framework; sourceTree = "<group>"; };
 		4964BCFCCE152FE8068697B7ACC0DE63 /* Pods-BevaMobAd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BevaMobAd_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4BC91686F876D05635B152A9F6C72EC7 /* BevaMobAd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BevaMobAd-prefix.pch"; sourceTree = "<group>"; };
 		54ED9AC4AFF2E4D40F489132D20828A2 /* BevaMobAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BevaMobAd.release.xcconfig; sourceTree = "<group>"; };
 		57FFCF5B87F045FDAEE101888E28B539 /* Pods-BevaMobAd_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BevaMobAd_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		78D3D3D01FDC9DAC6C75D82496E14F03 /* Pods-BevaMobAd_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BevaMobAd_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8B1F539AFB6F0782674587D233199E14 /* Pods-BevaMobAd_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BevaMobAd_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8FA75930A34E57D64520C1B2D9B3D4 /* BevaMobAd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BevaMobAd.modulemap; sourceTree = "<group>"; };
 		A37841A4C9E07F51BECE04E0B0844C52 /* Pods-BevaMobAd_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BevaMobAd_Example-Info.plist"; sourceTree = "<group>"; };
-		B316FDB3F3F38642FC3A16D56C07225D /* Pods_BevaMobAd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BevaMobAd_Example.framework; path = "Pods-BevaMobAd_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B316FDB3F3F38642FC3A16D56C07225D /* Pods_BevaMobAd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BevaMobAd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B72B3D929872E6BC80DE12A671C58B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BevaMobAd/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		BD0865D24D0715CE403A26890B55B59A /* BevaMobAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BevaMobAd.framework; path = BevaMobAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2B247098712CEA1D9203C114B4961BB /* Pods_BevaMobAd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BevaMobAd_Tests.framework; path = "Pods-BevaMobAd_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0865D24D0715CE403A26890B55B59A /* BevaMobAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BevaMobAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B247098712CEA1D9203C114B4961BB /* Pods_BevaMobAd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BevaMobAd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2FFAF128A008756ACCA3979C8F984A /* Pods-BevaMobAd_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BevaMobAd_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CCCEE11989C0801A89EFD82452E095AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CCCEE11989C0801A89EFD82452E095AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CD36DA0EF7AA0C83226309C4FEC078CE /* BevaMobAd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BevaMobAd-dummy.m"; sourceTree = "<group>"; };
-		D046A5BCD40CF6E53B3834A7ACF67F70 /* BevaMobAd.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BevaMobAd.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D046A5BCD40CF6E53B3834A7ACF67F70 /* BevaMobAd.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BevaMobAd.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D334DBC36B339F7ABF8E41108CAA6609 /* BevaMobAd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BevaMobAd-umbrella.h"; sourceTree = "<group>"; };
 		D7979BAD40FDEDA74D9EB33E3D694C20 /* BevaMobAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BevaMobAd.debug.xcconfig; sourceTree = "<group>"; };
 		D7A4D803F1838B5B6DA32760DFB30875 /* Pods-BevaMobAd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BevaMobAd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6A093D24E12F1500F7EA5B /* MobAD.framework in Frameworks */,
 				D0F0FF3DBBAE1DD748AC56A6E1335CBB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +111,16 @@
 				B39CA2EF5E4D32D7D2F94B8A4B12F0E0 /* BevaMobAd */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3D6A093924E12F1500F7EA5B /* Framewordks */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A093A24E12F1500F7EA5B /* MobAD.bundle */,
+				3D6A093B24E12F1500F7EA5B /* MobAD.framework */,
+			);
+			name = Framewordks;
+			path = BevaMobAd/Framewordks;
 			sourceTree = "<group>";
 		};
 		79FF000CA6E4B49C79AB7CD8402076FC /* Pod */ = {
@@ -147,6 +162,7 @@
 		B39CA2EF5E4D32D7D2F94B8A4B12F0E0 /* BevaMobAd */ = {
 			isa = PBXGroup;
 			children = (
+				3D6A093924E12F1500F7EA5B /* Framewordks */,
 				B4B72B3D929872E6BC80DE12A671C58B /* ReplaceMe.m */,
 				79FF000CA6E4B49C79AB7CD8402076FC /* Pod */,
 				E666500189571F54C9136214517AE0FE /* Support Files */,
@@ -357,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6A093C24E12F1500F7EA5B /* MobAD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,8 +574,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
