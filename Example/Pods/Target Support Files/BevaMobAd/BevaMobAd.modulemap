@@ -1,0 +1,6 @@
+framework module BevaMobAd {
+  umbrella header "BevaMobAd-umbrella.h"
+
+  export *
+  module * { export * }
+}

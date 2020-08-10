@@ -1,0 +1,16 @@
+PODS:
+  - BevaMobAd (0.1.0)
+
+DEPENDENCIES:
+  - BevaMobAd (from `../`)
+
+EXTERNAL SOURCES:
+  BevaMobAd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BevaMobAd: f8de0b5491a319893d494d33b9091d89678c55c3
+
+PODFILE CHECKSUM: d18f4cf7adffce01a6b568edebc5a16d1e85dc13
+
+COCOAPODS: 1.9.3

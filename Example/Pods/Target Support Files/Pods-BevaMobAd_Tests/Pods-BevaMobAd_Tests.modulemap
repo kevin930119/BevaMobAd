@@ -1,0 +1,6 @@
+framework module Pods_BevaMobAd_Tests {
+  umbrella header "Pods-BevaMobAd_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
